@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Hyper Tool Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<hyperlink>"
+    ],
+    "answer": "<a>"
+  },
+  {
+    "question": "What is the correct HTML element for the largest heading?",
+    "options": [
+      "<h6>",
+      "<heading>",
+      "<h1>",
+      "<head>"
+    ],
+    "answer": "<h1>"
+  },
+  {
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": [
+      "class",
+      "font",
+      "styles",
+      "style"
+    ],
+    "answer": "style"
+  },
+  {
+    "question": "Which HTML element is used to specify a footer for a document or section?",
+    "options": [
+      "<footer>",
+      "<bottom>",
+      "<section>",
+      "<div>"
+    ],
+    "answer": "<footer>"
+  },
+  {
+    "question": "Which character is used to indicate an end tag?",
+    "options": [
+      "*",
+      "/",
+      "<",
+      ">"
+    ],
+    "answer": "/"
+  },
+  {
+    "question": "Which HTML element is used to display a scalar measurement within a range?",
+    "options": [
+      "<range>",
+      "<meter>",
+      "<gauge>",
+      "<measure>"
+    ],
+    "answer": "<meter>"
+  },
+  {
+    "question": "What is the correct HTML for creating a checkbox?",
+    "options": [
+      "<input type=\"check\">",
+      "<checkbox>",
+      "<input type=\"checkbox\">",
+      "<check>"
+    ],
+    "answer": "<input type=\"checkbox\">"
+  },
+  {
+    "question": "Which HTML element is used to specify a header for a document or section?",
+    "options": [
+      "<header>",
+      "<head>",
+      "<top>",
+      "<section>"
+    ],
+    "answer": "<header>"
+  },
+  {
+    "question": "What is the correct HTML for inserting an image?",
+    "options": [
+      "<img href=\"image.png\" alt=\"MyImage\">",
+      "<img src=\"image.png\" alt=\"MyImage\">",
+      "<image src=\"image.png\" alt=\"MyImage\">",
+      "<img alt=\"MyImage\">image.png</img>"
+    ],
+    "answer": "<img src=\"image.png\" alt=\"MyImage\">"
+  },
+  {
+    "question": "Which HTML element defines the title of a document?",
+    "options": [
+      "<meta>",
+      "<title>",
+      "<head>",
+      "<header>"
+    ],
+    "answer": "<title>"
+  },
+  {
+    "question": "Which HTML element is used to define a navigation menu?",
+    "options": [
+      "<menu>",
+      "<nav>",
+      "<navigation>",
+      "<navigate>"
+    ],
+    "answer": "<nav>"
+  },
+  {
+    "question": "What is the correct HTML for making a drop-down list?",
+    "options": [
+      "<list>",
+      "<input type=\"dropdown\">",
+      "<select>",
+      "<dropdown>"
+    ],
+    "answer": "<select>"
+  },
+  {
+    "question": "Which HTML element defines important text?",
+    "options": [
+      "<important>",
+      "<b>",
+      "<strong>",
+      "<i>"
+    ],
+    "answer": "<strong>"
+  },
+  {
+    "question": "Which HTML element defines emphasized text?",
+    "options": [
+      "<italic>",
+      "<em>",
+      "<i>",
+      "<emphasis>"
+    ],
+    "answer": "<em>"
+  },
+  {
+    "question": "Which HTML element is used to define a paragraph?",
+    "options": [
+      "<para>",
+      "<p>",
+      "<paragraph>",
+      "<pg>"
+    ],
+    "answer": "<p>"
+  },
+  {
+    "question": "What is the correct HTML for inserting a line break?",
+    "options": [
+      "<break>",
+      "<lb>",
+      "<br>",
+      "<newline>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+    "options": [
+      "title",
+      "src",
+      "alt",
+      "longdesc"
+    ],
+    "answer": "alt"
+  },
+  {
+    "question": "Which HTML element is used to define a table row?",
+    "options": [
+      "<row>",
+      "<tr>",
+      "<td>",
+      "<th>"
+    ],
+    "answer": "<tr>"
+  },
+  {
+    "question": "Which HTML element is used to define a table cell?",
+    "options": [
+      "<cell>",
+      "<td>",
+      "<tc>",
+      "<tr>"
+    ],
+    "answer": "<td>"
+  },
+  {
+    "question": "Which HTML element is used to define a table header cell?",
+    "options": [
+      "<thead>",
+      "<th>",
+      "<header>",
+      "<tcell>"
+    ],
+    "answer": "<th>"
+  },
+  {
+    "question": "Which HTML element is used to define a list item?",
+    "options": [
+      "<li>",
+      "<list>",
+      "<item>",
+      "<ul>"
+    ],
+    "answer": "<li>"
+  },
+  {
+    "question": "Which HTML element is used to define an unordered list?",
+    "options": [
+      "<ol>",
+      "<list>",
+      "<ul>",
+      "<li>"
+    ],
+    "answer": "<ul>"
+  },
+  {
+    "question": "Which HTML element is used to define an ordered list?",
+    "options": [
+      "<ol>",
+      "<list>",
+      "<ul>",
+      "<li>"
+    ],
+    "answer": "<ol>"
+  },
+  {
+    "question": "Which HTML element is used to define a description list?",
+    "options": [
+      "<dl>",
+      "<desc>",
+      "<list>",
+      "<dd>"
+    ],
+    "answer": "<dl>"
+  },
+  {
+    "question": "Which HTML element is used to define a term in a description list?",
+    "options": [
+      "<dt>",
+      "<term>",
+      "<dd>",
+      "<dl>"
+    ],
+    "answer": "<dt>"
+  },
+  {
+    "question": "Which HTML element is used to define a description in a description list?",
+    "options": [
+      "<dt>",
+      "<desc>",
+      "<dd>",
+      "<dl>"
+    ],
+    "answer": "<dd>"
+  },
+  {
+    "question": "Which HTML element is used to define a section in a document?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<span>",
+      "<area>"
+    ],
+    "answer": "<section>"
+  },
+  {
+    "question": "Which HTML element is used to define a division or a section in a document?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<span>",
+      "<area>"
+    ],
+    "answer": "<div>"
+  },
+  {
+    "question": "Which HTML element is used to define a span of text?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<span>",
+      "<area>"
+    ],
+    "answer": "<span>"
+  },
+  {
+    "question": "Which HTML element is used to define a clickable button?",
+    "options": [
+      "<button>",
+      "<click>",
+      "<input>",
+      "<btn>"
+    ],
+    "answer": "<button>"
+  },
+  {
+    "question": "Which HTML element is used to define a form?",
+    "options": [
+      "<form>",
+      "<input>",
+      "<submit>",
+      "<frm>"
+    ],
+    "answer": "<form>"
+  },
+  {
+    "question": "Which HTML element is used to define an input field?",
+    "options": [
+      "<input>",
+      "<textfield>",
+      "<field>",
+      "<type>"
+    ],
+    "answer": "<input>"
+  },
+  {
+    "question": "Which HTML element is used to define a label for an input element?",
+    "options": [
+      "<label>",
+      "<lb>",
+      "<lbl>",
+      "<inputlabel>"
+    ],
+    "answer": "<label>"
+  },
+  {
+    "question": "Which HTML element is used to define a text area?",
+    "options": [
+      "<input type=\"text\">",
+      "<textarea>",
+      "<textfield>",
+      "<text>"
+    ],
+    "answer": "<textarea>"
+  },
+  {
+    "question": "Which HTML element is used to define a caption for a fieldset element?",
+    "options": [
+      "<caption>",
+      "<legend>",
+      "<title>",
+      "<label>"
+    ],
+    "answer": "<legend>"
+  },
+  {
+    "question": "Which HTML element is used to group related elements in a form?",
+    "options": [
+      "<group>",
+      "<fieldset>",
+      "<div>",
+      "<section>"
+    ],
+    "answer": "<fieldset>"
+  },
+  {
+    "question": "Which HTML element is used to define a video?",
+    "options": [
+      "<media>",
+      "<video>",
+      "<movie>",
+      "<play>"
+    ],
+    "answer": "<video>"
+  },
+  {
+    "question": "Which HTML element is used to define audio content?",
+    "options": [
+      "<sound>",
+      "<audio>",
+      "<music>",
+      "<mp3>"
+    ],
+    "answer": "<audio>"
+  },
+  {
+    "question": "Which HTML element is used to define a container for external content?",
+    "options": [
+      "<embed>",
+      "<object>",
+      "<external>",
+      "<iframe>"
+    ],
+    "answer": "<iframe>"
+  },
+  {
+    "question": "Which HTML element is used to define a container for an external application?",
+    "options": [
+      "<embed>",
+      "<object>",
+      "<external>",
+      "<iframe>"
+    ],
+    "answer": "<object>"
+  },
+  {
+    "question": "Which HTML element is used to define a container for an external (non-HTML) application?",
+    "options": [
+      "<embed>",
+      "<object>",
+      "<external>",
+      "<iframe>"
+    ],
+    "answer": "<embed>"
+  },
+  {
+    "question": "Which HTML element is used to define a progress bar?",
+    "options": [
+      "<progress>",
+      "<meter>",
+      "<bar>",
+      "<status>"
+    ],
+    "answer": "<progress>"
+  },
+  {
+    "question": "Which HTML element is used to define a scalar measurement within a known range?",
+    "options": [
+      "<progress>",
+      "<meter>",
+      "<range>",
+      "<measure>"
+    ],
+    "answer": "<meter>"
+  },
+  {
+    "question": "Which HTML element is used to define a dialog box or window?",
+    "options": [
+      "<dialog>",
+      "<window>",
+      "<popup>",
+      "<box>"
+    ],
+    "answer": "<dialog>"
+  },
+  {
+    "question": "Which HTML element is used to define a summary/details widget?",
+    "options": [
+      "<details>",
+      "<summary>",
+      "<widget>",
+      "<accordion>"
+    ],
+    "answer": "<details>"
+  },
+  {
+    "question": "Which HTML element is used to define a visible heading for a details element?",
+    "options": [
+      "<details>",
+      "<summary>",
+      "<heading>",
+      "<title>"
+    ],
+    "answer": "<summary>"
+  },
+  {
+    "question": "Which HTML element is used to define a date/time?",
+    "options": [
+      "<date>",
+      "<time>",
+      "<datetime>",
+      "<calendar>"
+    ],
+    "answer": "<time>"
+  },
+  {
+    "question": "Which HTML element is used to define a ruby annotation?",
+    "options": [
+      "<ruby>",
+      "<annotation>",
+      "<rt>",
+      "<rp>"
+    ],
+    "answer": "<ruby>"
+  },
+  {
+    "question": "Which HTML element is used to define a ruby annotation's pronunciation?",
+    "options": [
+      "<ruby>",
+      "<annotation>",
+      "<rt>",
+      "<rp>"
+    ],
+    "answer": "<rt>"
+  },
+  {
+    "question": "Which HTML element is used to define what to show in browsers that do not support ruby annotations?",
+    "options": [
+      "<ruby>",
+      "<annotation>",
+      "<rt>",
+      "<rp>"
+    ],
+    "answer": "<rp>"
+  },
+  {
+    "question": "Which HTML element is used to define a thematic break between paragraph-level elements?",
+    "options": [
+      "<break>",
+      "<hr>",
+      "<line>",
+      "<separator>"
+    ],
+    "answer": "<hr>"
+  },
+  {
+    "question": "Which HTML element is used to define a comment?",
+    "options": [
+      "<comment>",
+      "<!-- -->",
+      "<cmt>",
+      "<note>"
+    ],
+    "answer": "<!-- -->"
+  },
+  {
+    "question": "Which HTML element is used to define a piece of computer code?",
+    "options": [
+      "<code>",
+      "<script>",
+      "<computer>",
+      "<pc>"
+    ],
+    "answer": "<code>"
+  },
+  {
+    "question": "Which HTML element is used to define a variable in programming or mathematical expression?",
+    "options": [
+      "<var>",
+      "<variable>",
+      "<math>",
+      "<v>"
+    ],
+    "answer": "<var>"
+  },
+  {
+    "question": "Which HTML element is used to define the result of a calculation?",
+    "options": [
+      "<result>",
+      "<output>",
+      "<calc>",
+      "<answer>"
+    ],
+    "answer": "<output>"
+  },
+  {
+    "question": "Which HTML element is used to define a caption for a figure element?",
+    "options": [
+      "<caption>",
+      "<figcaption>",
+      "<title>",
+      "<legend>"
+    ],
+    "answer": "<figcaption>"
+  },
+  {
+    "question": "Which HTML element is used to define self-contained content, like illustrations, diagrams, photos, etc.?",
+    "options": [
+      "<figure>",
+      "<pic>",
+      "<illustration>",
+      "<img>"
+    ],
+    "answer": "<figure>"
+  },
+  {
+    "question": "Which HTML5 element is used for drawing graphics via scripting?",
+    "options": [
+      "<paint>",
+      "<canvas>",
+      "<draw>",
+      "<svg>"
+    ],
+    "answer": "<canvas>"
+  },
+  {
+    "question": "Which attribute is used to make an input field required in HTML5?",
+    "options": [
+      "mandatory",
+      "required",
+      "mustfill",
+      "validate"
+    ],
+    "answer": "required"
+  },
+  {
+    "question": "Which HTML element is used to define sample output from a computer program?",
+    "options": [
+      "<output>",
+      "<sample>",
+      "<samp>",
+      "<code>"
+    ],
+    "answer": "<samp>"
+  },
+  {
+    "question": "Which HTML element is used to define keyboard input?",
+    "options": [
+      "<keyboard>",
+      "<kbd>",
+      "<input>",
+      "<keys>"
+    ],
+    "answer": "<kbd>"
+  },
+  {
+    "question": "Which HTML element is used to define a container for multiple image resources?",
+    "options": [
+      "<picture>",
+      "<gallery>",
+      "<images>",
+      "<multiimg>"
+    ],
+    "answer": "<picture>"
+  },
+  {
+    "question": "Which HTML element is used to define scalar measurement within a known range?",
+    "options": [
+      "<range>",
+      "<meter>",
+      "<scale>",
+      "<measure>"
+    ],
+    "answer": "<meter>"
+  },
+  {
+    "question": "Which HTML element is used to define a section that is quoted from another source?",
+    "options": [
+      "<quote>",
+      "<q>",
+      "<blockquote>",
+      "<cite>"
+    ],
+    "answer": "<blockquote>"
+  },
+  {
+    "question": "Which HTML element is used to define a short quotation?",
+    "options": [
+      "<quote>",
+      "<q>",
+      "<shortquote>",
+      "<sq>"
+    ],
+    "answer": "<q>"
+  },
+  {
+    "question": "Which HTML element is used to define the title of a work?",
+    "options": [
+      "<title>",
+      "<work>",
+      "<cite>",
+      "<name>"
+    ],
+    "answer": "<cite>"
+  },
+  {
+    "question": "Which HTML element is used to define a definition term?",
+    "options": [
+      "<def>",
+      "<term>",
+      "<dfn>",
+      "<definition>"
+    ],
+    "answer": "<dfn>"
+  },
+  {
+    "question": "Which HTML element is used to define superscript text?",
+    "options": [
+      "<super>",
+      "<sup>",
+      "<high>",
+      "<top>"
+    ],
+    "answer": "<sup>"
+  },
+  {
+    "question": "Which HTML element is used to define subscript text?",
+    "options": [
+      "<sub>",
+      "<low>",
+      "<inf>",
+      "<bottom>"
+    ],
+    "answer": "<sub>"
+  },
+  {
+    "question": "Which HTML element is used to define a thematic break in an HTML page?",
+    "options": [
+      "<break>",
+      "<hr>",
+      "<separator>",
+      "<divider>"
+    ],
+    "answer": "<hr>"
+  },
+  {
+    "question": "Which HTML element is used to define a header cell in a table?",
+    "options": [
+      "<thead>",
+      "<th>",
+      "<header>",
+      "<hcell>"
+    ],
+    "answer": "<th>"
+  },
+  {
+    "question": "Which HTML element is used to define a group of header content in a table?",
+    "options": [
+      "<thead>",
+      "<tgroup>",
+      "<hgroup>",
+      "<header>"
+    ],
+    "answer": "<thead>"
+  },
+  {
+    "question": "Which HTML element is used to define a group of body content in a table?",
+    "options": [
+      "<tbody>",
+      "<body>",
+      "<tgroup>",
+      "<bgroup>"
+    ],
+    "answer": "<tbody>"
+  },
+  {
+    "question": "Which HTML element is used to define a group of footer content in a table?",
+    "options": [
+      "<tfoot>",
+      "<footer>",
+      "<fgroup>",
+      "<bottom>"
+    ],
+    "answer": "<tfoot>"
+  },
+  {
+    "question": "Which HTML element is used to define a caption for a table?",
+    "options": [
+      "<caption>",
+      "<title>",
+      "<tcaption>",
+      "<tabletitle>"
+    ],
+    "answer": "<caption>"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify that an input field must be filled out?",
+    "options": [
+      "required",
+      "validate",
+      "mandatory",
+      "necessary"
+    ],
+    "answer": "required"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify a regular expression that an input field's value is checked against?",
+    "options": [
+      "regex",
+      "pattern",
+      "validation",
+      "check"
+    ],
+    "answer": "pattern"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify a hint that describes the expected value of an input field?",
+    "options": [
+      "hint",
+      "placeholder",
+      "tip",
+      "description"
+    ],
+    "answer": "placeholder"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify that an input field should be automatically focused when the page loads?",
+    "options": [
+      "focus",
+      "autofocus",
+      "selected",
+      "active"
+    ],
+    "answer": "autofocus"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify that an input field should be pre-selected when the page loads?",
+    "options": [
+      "selected",
+      "checked",
+      "on",
+      "active"
+    ],
+    "answer": "checked"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify that an input field is read-only?",
+    "options": [
+      "readonly",
+      "disabled",
+      "static",
+      "fixed"
+    ],
+    "answer": "readonly"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify that an input field is disabled?",
+    "options": [
+      "readonly",
+      "disabled",
+      "off",
+      "inactive"
+    ],
+    "answer": "disabled"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify the maximum number of characters allowed in an input field?",
+    "options": [
+      "max",
+      "maximum",
+      "maxlength",
+      "limit"
+    ],
+    "answer": "maxlength"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify the minimum number of characters required in an input field?",
+    "options": [
+      "min",
+      "minimum",
+      "minlength",
+      "least"
+    ],
+    "answer": "minlength"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify multiple files can be selected in a file upload field?",
+    "options": [
+      "many",
+      "multiple",
+      "several",
+      "multifile"
+    ],
+    "answer": "multiple"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify the step interval for an input field?",
+    "options": [
+      "step",
+      "interval",
+      "increment",
+      "skip"
+    ],
+    "answer": "step"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify the minimum value for an input field?",
+    "options": [
+      "least",
+      "min",
+      "minimum",
+      "smallest"
+    ],
+    "answer": "min"
+  },
+  {
+    "question": "Which HTML5 attribute is used to specify the maximum value for an input field?",
+    "options": [
+      "most",
+      "max",
+      "maximum",
+      "largest"
+    ],
+    "answer": "max"
+  },
+  {
+    "question": "Which HTML5 element is used to define a section that is quoted from another source?",
+    "options": [
+      "<quote>",
+      "<q>",
+      "<blockquote>",
+      "<citation>"
+    ],
+    "answer": "<blockquote>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a visible heading for a details element?",
+    "options": [
+      "<heading>",
+      "<summary>",
+      "<title>",
+      "<caption>"
+    ],
+    "answer": "<summary>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a dialog box or window?",
+    "options": [
+      "<dialog>",
+      "<window>",
+      "<popup>",
+      "<box>"
+    ],
+    "answer": "<dialog>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a scalar measurement within a known range?",
+    "options": [
+      "<range>",
+      "<meter>",
+      "<scale>",
+      "<measure>"
+    ],
+    "answer": "<meter>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a container for external content?",
+    "options": [
+      "<external>",
+      "<iframe>",
+      "<embed>",
+      "<object>"
+    ],
+    "answer": "<iframe>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a container for an external application?",
+    "options": [
+      "<app>",
+      "<object>",
+      "<external>",
+      "<plugin>"
+    ],
+    "answer": "<object>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a container for an external (non-HTML) application?",
+    "options": [
+      "<embed>",
+      "<object>",
+      "<external>",
+      "<iframe>"
+    ],
+    "answer": "<embed>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a progress bar?",
+    "options": [
+      "<progress>",
+      "<bar>",
+      "<meter>",
+      "<status>"
+    ],
+    "answer": "<progress>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a section in a document?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<area>",
+      "<part>"
+    ],
+    "answer": "<section>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a division or a section in a document?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<area>",
+      "<part>"
+    ],
+    "answer": "<div>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a span of text?",
+    "options": [
+      "<span>",
+      "<text>",
+      "<part>",
+      "<segment>"
+    ],
+    "answer": "<span>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a clickable button?",
+    "options": [
+      "<button>",
+      "<click>",
+      "<input>",
+      "<press>"
+    ],
+    "answer": "<button>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a form?",
+    "options": [
+      "<form>",
+      "<input>",
+      "<submit>",
+      "<frm>"
+    ],
+    "answer": "<form>"
+  },
+  {
+    "question": "Which HTML5 element is used to define an input field?",
+    "options": [
+      "<input>",
+      "<textfield>",
+      "<field>",
+      "<type>"
+    ],
+    "answer": "<input>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a label for an input element?",
+    "options": [
+      "<label>",
+      "<lb>",
+      "<lbl>",
+      "<inputlabel>"
+    ],
+    "answer": "<label>"
+  },
+  {
+    "question": "Which HTML5 element is used to define a text area?",
+    "options": [
+      "<input type=\"text\">",
+      "<textarea>",
+      "<textfield>",
+      "<text>"
+    ],
+    "answer": "<textarea>"
+  }
+]

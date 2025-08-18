@@ -1,0 +1,892 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Creative Style Sheets",
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which property is used to change the background color of an element?",
+    "options": [
+      "bgcolor",
+      "background-color",
+      "color",
+      "background"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which property is used to change the text color of an element?",
+    "options": [
+      "text-color",
+      "font-color",
+      "color",
+      "text-style"
+    ],
+    "answer": "color"
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "options": [
+      "text-style",
+      "font-size",
+      "text-size",
+      "font-style"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "options": [
+      "font-weight: bold;",
+      "text-style: bold;",
+      "font: bold;",
+      "style: bold;"
+    ],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "How do you display a border around an element?",
+    "options": [
+      "border-line: 1px;",
+      "border: 1px solid;",
+      "border-style: solid;",
+      "border-width: 1px;"
+    ],
+    "answer": "border: 1px solid;"
+  },
+  {
+    "question": "Which property is used to change the left margin of an element?",
+    "options": [
+      "padding-left",
+      "margin-left",
+      "indent",
+      "left-margin"
+    ],
+    "answer": "margin-left"
+  },
+  {
+    "question": "How do you make a list display its items horizontally?",
+    "options": [
+      "list-style: horizontal;",
+      "list-direction: row;",
+      "display: inline;",
+      "display: flex;"
+    ],
+    "answer": "display: flex;"
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "options": [
+      "font-family",
+      "font-style",
+      "text-font",
+      "font-type"
+    ],
+    "answer": "font-family"
+  },
+  {
+    "question": "How do you add a background image to an element?",
+    "options": [
+      "background-image: url('image.jpg');",
+      "image: url('image.jpg');",
+      "bg-image: url('image.jpg');",
+      "background: image('image.jpg');"
+    ],
+    "answer": "background-image: url('image.jpg');"
+  },
+  {
+    "question": "Which property is used to change the case of text?",
+    "options": [
+      "text-transform",
+      "font-case",
+      "text-case",
+      "case"
+    ],
+    "answer": "text-transform"
+  },
+  {
+    "question": "How do you make each word in a text start with a capital letter?",
+    "options": [
+      "text-transform: capitalize;",
+      "text-style: capital;",
+      "text-transform: uppercase;",
+      "font-variant: small-caps;"
+    ],
+    "answer": "text-transform: capitalize;"
+  },
+  {
+    "question": "Which property is used to set the space between lines of text?",
+    "options": [
+      "line-height",
+      "spacing",
+      "text-spacing",
+      "line-spacing"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "question": "How do you select an element with id 'header'?",
+    "options": [
+      ".header",
+      "#header",
+      "*header",
+      "header"
+    ],
+    "answer": "#header"
+  },
+  {
+    "question": "How do you select elements with class name 'menu'?",
+    "options": [
+      "#menu",
+      ".menu",
+      "*menu",
+      "menu"
+    ],
+    "answer": ".menu"
+  },
+  {
+    "question": "How do you select all paragraph elements inside a div element?",
+    "options": [
+      "div + p",
+      "div.p",
+      "div p",
+      "div > p"
+    ],
+    "answer": "div p"
+  },
+  {
+    "question": "Which property is used to change the opacity of an element?",
+    "options": [
+      "transparency",
+      "opacity",
+      "visibility",
+      "alpha"
+    ],
+    "answer": "opacity"
+  },
+  {
+    "question": "How do you make an element's text italic?",
+    "options": [
+      "font-style: italic;",
+      "text-style: italic;",
+      "font: italic;",
+      "style: italic;"
+    ],
+    "answer": "font-style: italic;"
+  },
+  {
+    "question": "Which property is used to align the text of an element?",
+    "options": [
+      "text-align",
+      "align",
+      "text-position",
+      "font-align"
+    ],
+    "answer": "text-align"
+  },
+  {
+    "question": "How do you remove the underline from all hyperlinks?",
+    "options": [
+      "a {text-decoration: none;}",
+      "a {underline: none;}",
+      "a {decoration: no-underline;}",
+      "a {text-style: no-underline;}"
+    ],
+    "answer": "a {text-decoration: none;}"
+  },
+  {
+    "question": "Which property is used to create space between an element's border and its content?",
+    "options": [
+      "margin",
+      "spacing",
+      "padding",
+      "border-space"
+    ],
+    "answer": "padding"
+  },
+  {
+    "question": "Which property is used to create space between elements?",
+    "options": [
+      "margin",
+      "spacing",
+      "padding",
+      "border-space"
+    ],
+    "answer": "margin"
+  },
+  {
+    "question": "How do you make a flexbox container?",
+    "options": [
+      "display: flex-container;",
+      "display: flex;",
+      "display: flexbox;",
+      "display: box;"
+    ],
+    "answer": "display: flex;"
+  },
+  {
+    "question": "Which property is used to change the order of flex items?",
+    "options": [
+      "flex-order",
+      "order",
+      "flex-direction",
+      "flex-position"
+    ],
+    "answer": "order"
+  },
+  {
+    "question": "How do you make a grid container?",
+    "options": [
+      "display: grid-container;",
+      "display: grid;",
+      "display: block-grid;",
+      "display: flex-grid;"
+    ],
+    "answer": "display: grid;"
+  },
+  {
+    "question": "Which property is used to create rounded corners?",
+    "options": [
+      "corner-radius",
+      "border-round",
+      "border-radius",
+      "round-corner"
+    ],
+    "answer": "border-radius"
+  },
+  {
+    "question": "How do you apply a style when the mouse hovers over an element?",
+    "options": [
+      "a.mouseover",
+      "a:hover",
+      "a.over",
+      "a.mouse:hover"
+    ],
+    "answer": "a:hover"
+  },
+  {
+    "question": "Which property is used to create a transition effect?",
+    "options": [
+      "transition",
+      "transform",
+      "animation",
+      "effect"
+    ],
+    "answer": "transition"
+  },
+  {
+    "question": "How do you rotate an element 45 degrees?",
+    "options": [
+      "rotate: 45deg;",
+      "transform: rotate(45deg);",
+      "spin: 45deg;",
+      "rotation: 45;"
+    ],
+    "answer": "transform: rotate(45deg);"
+  },
+  {
+    "question": "Which property is used to specify the stack order of an element?",
+    "options": [
+      "stack-order",
+      "z-index",
+      "layer",
+      "depth"
+    ],
+    "answer": "z-index"
+  },
+  {
+    "question": "How do you hide an element but keep its space in the layout?",
+    "options": [
+      "display: none;",
+      "visibility: hidden;",
+      "opacity: 0;",
+      "hidden: true;"
+    ],
+    "answer": "visibility: hidden;"
+  },
+  {
+    "question": "How do you completely hide an element (including its space)?",
+    "options": [
+      "display: none;",
+      "visibility: hidden;",
+      "opacity: 0;",
+      "hidden: true;"
+    ],
+    "answer": "display: none;"
+  },
+  {
+    "question": "Which property is used to create a shadow behind an element?",
+    "options": [
+      "shadow",
+      "box-shadow",
+      "element-shadow",
+      "drop-shadow"
+    ],
+    "answer": "box-shadow"
+  },
+  {
+    "question": "How do you specify a media query for screens narrower than 600px?",
+    "options": [
+      "@media screen and (max-width: 600px)",
+      "@media (max-width: 600px)",
+      "@media screen (width < 600px)",
+      "@media (screen-width: 600px)"
+    ],
+    "answer": "@media (max-width: 600px)"
+  },
+  {
+    "question": "Which property is used to change the cursor when hovering over an element?",
+    "options": [
+      "mouse-pointer",
+      "cursor",
+      "pointer",
+      "mouse-cursor"
+    ],
+    "answer": "cursor"
+  },
+  {
+    "question": "How do you make text uppercase using CSS?",
+    "options": [
+      "text-transform: uppercase;",
+      "text-style: uppercase;",
+      "font-case: upper;",
+      "case: upper;"
+    ],
+    "answer": "text-transform: uppercase;"
+  },
+  {
+    "question": "Which property is used to specify the space between letters?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "text-spacing",
+      "character-spacing"
+    ],
+    "answer": "letter-spacing"
+  },
+  {
+    "question": "Which property is used to specify the space between words?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "text-spacing",
+      "character-spacing"
+    ],
+    "answer": "word-spacing"
+  },
+  {
+    "question": "How do you specify that a background image should not repeat?",
+    "options": [
+      "background-repeat: none;",
+      "background-repeat: no-repeat;",
+      "background: no-repeat;",
+      "repeat: none;"
+    ],
+    "answer": "background-repeat: no-repeat;"
+  },
+  {
+    "question": "Which property is used to specify how a background image should scroll?",
+    "options": [
+      "background-scroll",
+      "background-attachment",
+      "background-fix",
+      "scroll-type"
+    ],
+    "answer": "background-attachment"
+  },
+  {
+    "question": "How do you center an element horizontally using margin?",
+    "options": [
+      "margin: center;",
+      "margin: 0 center;",
+      "margin: 0 auto;",
+      "margin-center: auto;"
+    ],
+    "answer": "margin: 0 auto;"
+  },
+  {
+    "question": "Which property is used to create a gap between grid items?",
+    "options": [
+      "grid-gap",
+      "gap",
+      "grid-spacing",
+      "grid-margin"
+    ],
+    "answer": "gap"
+  },
+  {
+    "question": "How do you specify multiple font families in case the first isn't available?",
+    "options": [
+      "font-family: Arial, Helvetica, sans-serif;",
+      "font: Arial, Helvetica, sans-serif;",
+      "font-family: Arial or Helvetica or sans-serif;",
+      "font: [Arial, Helvetica, sans-serif];"
+    ],
+    "answer": "font-family: Arial, Helvetica, sans-serif;"
+  },
+  {
+    "question": "Which property is used to specify the size of a font?",
+    "options": [
+      "text-size",
+      "font-size",
+      "size",
+      "font"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "question": "How do you specify a font size in relative units based on the parent element?",
+    "options": [
+      "font-size: relative;",
+      "font-size: em;",
+      "font-size: 1.2em;",
+      "font-size: parent;"
+    ],
+    "answer": "font-size: 1.2em;"
+  },
+  {
+    "question": "Which property is used to specify the style of a font?",
+    "options": [
+      "font-style",
+      "text-style",
+      "style",
+      "font"
+    ],
+    "answer": "font-style"
+  },
+  {
+    "question": "How do you specify a font weight?",
+    "options": [
+      "font-weight: bold;",
+      "text-weight: bold;",
+      "weight: bold;",
+      "bold: true;"
+    ],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "Which property is used to specify small-caps text?",
+    "options": [
+      "font-variant",
+      "text-transform",
+      "font-style",
+      "text-variant"
+    ],
+    "answer": "font-variant"
+  },
+  {
+    "question": "How do you align items vertically in a flex container?",
+    "options": [
+      "flex-align",
+      "align-content",
+      "align-items",
+      "vertical-align"
+    ],
+    "answer": "align-items"
+  },
+  {
+    "question": "How do you justify content in a flex container?",
+    "options": [
+      "flex-justify",
+      "justify-content",
+      "content-align",
+      "align-content"
+    ],
+    "answer": "justify-content"
+  },
+  {
+    "question": "Which property is used to specify the direction of flex items?",
+    "options": [
+      "flex-direction",
+      "flex-flow",
+      "direction",
+      "flex-orientation"
+    ],
+    "answer": "flex-direction"
+  },
+  {
+    "question": "How do you make flex items wrap to the next line when there's not enough space?",
+    "options": [
+      "flex-wrap: wrap;",
+      "flex-flow: wrap;",
+      "wrap: flex;",
+      "flex: wrap;"
+    ],
+    "answer": "flex-wrap: wrap;"
+  },
+  {
+    "question": "Which property is used to specify the order of grid columns?",
+    "options": [
+      "grid-column-order",
+      "grid-template-columns",
+      "grid-columns",
+      "columns"
+    ],
+    "answer": "grid-template-columns"
+  },
+  {
+    "question": "How do you specify that a grid item should span 2 columns?",
+    "options": [
+      "grid-column: span 2;",
+      "column-span: 2;",
+      "grid-span: 2;",
+      "span: 2;"
+    ],
+    "answer": "grid-column: span 2;"
+  },
+  {
+    "question": "Which property is used to specify the size of grid rows?",
+    "options": [
+      "grid-rows",
+      "grid-template-rows",
+      "rows",
+      "grid-row-size"
+    ],
+    "answer": "grid-template-rows"
+  },
+  {
+    "question": "How do you specify that a grid item should span 3 rows?",
+    "options": [
+      "grid-row: span 3;",
+      "row-span: 3;",
+      "grid-span: 3;",
+      "span: 3;"
+    ],
+    "answer": "grid-row: span 3;"
+  },
+  {
+    "question": "Which property is used to specify the position of a grid item?",
+    "options": [
+      "grid-position",
+      "grid-area",
+      "position",
+      "grid-location"
+    ],
+    "answer": "grid-area"
+  },
+  {
+    "question": "How do you create a sticky header that stays at the top when scrolling?",
+    "options": [
+      "position: static;",
+      "position: relative;",
+      "position: fixed;",
+      "position: sticky;"
+    ],
+    "answer": "position: sticky;"
+  },
+  {
+    "question": "Which property is used to create a fixed element that stays in the same place when scrolling?",
+    "options": [
+      "position: static;",
+      "position: relative;",
+      "position: fixed;",
+      "position: absolute;"
+    ],
+    "answer": "position: fixed;"
+  },
+  {
+    "question": "How do you create a 3D transformation?",
+    "options": [
+      "transform: 3d;",
+      "transform: rotate3d();",
+      "transform-style: preserve-3d;",
+      "3d-transform: true;"
+    ],
+    "answer": "transform-style: preserve-3d;"
+  },
+  {
+    "question": "Which property is used to create a smooth scrolling effect?",
+    "options": [
+      "scroll-behavior",
+      "smooth-scroll",
+      "scroll-effect",
+      "animation-scroll"
+    ],
+    "answer": "scroll-behavior"
+  },
+  {
+    "question": "How do you create a custom variable in CSS?",
+    "options": [
+      "--main-color: #ff0000;",
+      "var main-color = #ff0000;",
+      "$main-color: #ff0000;",
+      "variable: main-color #ff0000;"
+    ],
+    "answer": "--main-color: #ff0000;"
+  },
+  {
+    "question": "How do you use a CSS custom variable?",
+    "options": [
+      "color: var(--main-color);",
+      "color: var(main-color);",
+      "color: --main-color;",
+      "color: use(--main-color);"
+    ],
+    "answer": "color: var(--main-color);"
+  },
+  {
+    "question": "Which property is used to specify how an element should float?",
+    "options": [
+      "position",
+      "float",
+      "align",
+      "flow"
+    ],
+    "answer": "float"
+  },
+  {
+    "question": "How do you clear floats?",
+    "options": [
+      "clear: both;",
+      "float: none;",
+      "clear: floats;",
+      "reset: float;"
+    ],
+    "answer": "clear: both;"
+  },
+  {
+    "question": "Which property is used to specify the type of box model?",
+    "options": [
+      "box-sizing",
+      "box-model",
+      "box-type",
+      "model"
+    ],
+    "answer": "box-sizing"
+  },
+  {
+    "question": "What does 'box-sizing: border-box' do?",
+    "options": [
+      "Includes padding and border in element's width and height",
+      "Excludes padding and border from element's width and height",
+      "Adds a box shadow",
+      "Creates a border around the element"
+    ],
+    "answer": "Includes padding and border in element's width and height"
+  },
+  {
+    "question": "Which property is used to create a gradient background?",
+    "options": [
+      "background-gradient",
+      "gradient",
+      "background-image",
+      "color-gradient"
+    ],
+    "answer": "background-image"
+  },
+  {
+    "question": "How do you create a linear gradient from top to bottom?",
+    "options": [
+      "background-image: linear-gradient(to bottom, red, blue);",
+      "background: linear-gradient(red, blue);",
+      "gradient: linear(top, bottom, red, blue);",
+      "background-image: gradient(linear, red, blue);"
+    ],
+    "answer": "background-image: linear-gradient(to bottom, red, blue);"
+  },
+  {
+    "question": "Which property is used to specify the origin of a background image?",
+    "options": [
+      "background-origin",
+      "background-position",
+      "background-start",
+      "origin"
+    ],
+    "answer": "background-origin"
+  },
+  {
+    "question": "Which property is used to specify the size of a background image?",
+    "options": [
+      "background-size",
+      "background-scale",
+      "image-size",
+      "size"
+    ],
+    "answer": "background-size"
+  },
+  {
+    "question": "How do you make a background image cover the entire element?",
+    "options": [
+      "background-size: auto;",
+      "background-size: contain;",
+      "background-size: 100%;",
+      "background-size: cover;"
+    ],
+    "answer": "background-size: cover;"
+  },
+  {
+    "question": "Which property is used to specify how a background image should blend with its background?",
+    "options": [
+      "background-blend",
+      "mix-blend-mode",
+      "background-composite",
+      "blend-mode"
+    ],
+    "answer": "background-blend-mode"
+  },
+  {
+    "question": "Which property is used to create a text shadow?",
+    "options": [
+      "text-shadow",
+      "font-shadow",
+      "shadow",
+      "text-effect"
+    ],
+    "answer": "text-shadow"
+  },
+  {
+    "question": "How do you create a multi-column layout?",
+    "options": [
+      "columns: 3;",
+      "column-count: 3;",
+      "multi-column: 3;",
+      "layout: columns 3;"
+    ],
+    "answer": "column-count: 3;"
+  },
+  {
+    "question": "Which property is used to specify the gap between columns?",
+    "options": [
+      "column-gap",
+      "gap",
+      "column-spacing",
+      "spacing"
+    ],
+    "answer": "column-gap"
+  },
+  {
+    "question": "Which property is used to specify a rule between columns?",
+    "options": [
+      "column-rule",
+      "column-line",
+      "rule",
+      "divider"
+    ],
+    "answer": "column-rule"
+  },
+  {
+    "question": "How do you specify that content should balance between columns?",
+    "options": [
+      "column-fill: balance;",
+      "balance: columns;",
+      "column-balance: true;",
+      "columns: balanced;"
+    ],
+    "answer": "column-fill: balance;"
+  },
+  {
+    "question": "Which property is used to specify the width of columns?",
+    "options": [
+      "column-width",
+      "width",
+      "columns",
+      "col-width"
+    ],
+    "answer": "column-width"
+  },
+  {
+    "question": "How do you create an animation in CSS?",
+    "options": [
+      "@keyframes mymove {from {top: 0px;} to {top: 100px;}}",
+      "animation: mymove {0% {top: 0px;} 100% {top: 100px;}}",
+      "@animation mymove {start {top: 0px;} end {top: 100px;}}",
+      "keyframes: mymove {begin {top: 0px;} finish {top: 100px;}}"
+    ],
+    "answer": "@keyframes mymove {from {top: 0px;} to {top: 100px;}}"
+  },
+  {
+    "question": "Which property is used to specify the duration of an animation?",
+    "options": [
+      "animation-time",
+      "duration",
+      "animation-duration",
+      "time"
+    ],
+    "answer": "animation-duration"
+  },
+  {
+    "question": "Which property is used to specify how many times an animation should run?",
+    "options": [
+      "animation-count",
+      "animation-iteration-count",
+      "repeat",
+      "loop"
+    ],
+    "answer": "animation-iteration-count"
+  },
+  {
+    "question": "Which property is used to specify the timing function of an animation?",
+    "options": [
+      "animation-timing",
+      "timing-function",
+      "animation-function",
+      "animation-timing-function"
+    ],
+    "answer": "animation-timing-function"
+  },
+  {
+    "question": "How do you pause an animation on hover?",
+    "options": [
+      "animation-play-state: paused;",
+      "animation: pause;",
+      "pause-animation: true;",
+      "animation-state: stopped;"
+    ],
+    "answer": "animation-play-state: paused;"
+  },
+  {
+    "question": "Which property is used to specify the delay before an animation starts?",
+    "options": [
+      "animation-delay",
+      "delay",
+      "wait",
+      "animation-wait"
+    ],
+    "answer": "animation-delay"
+  },
+  {
+    "question": "Which property is used to specify the fill mode of an animation?",
+    "options": [
+      "animation-fill",
+      "fill-mode",
+      "animation-fill-mode",
+      "animation-mode"
+    ],
+    "answer": "animation-fill-mode"
+  },
+  {
+    "question": "How do you specify that an animation should alternate direction each cycle?",
+    "options": [
+      "animation-direction: alternate;",
+      "animation: alternate;",
+      "alternate: true;",
+      "animation-alternate: on;"
+    ],
+    "answer": "animation-direction: alternate;"
+  },
+  {
+    "question": "Which property is used to specify the name of the @keyframes animation?",
+    "options": [
+      "animation-keyframes",
+      "animation-name",
+      "keyframes",
+      "name"
+    ],
+    "answer": "animation-name"
+  },
+  {
+    "question": "How do you apply multiple animations to an element?",
+    "options": [
+      "animation: name1, name2;",
+      "animation-name: name1, name2;",
+      "multiple-animations: name1, name2;",
+      "animations: name1 name2;"
+    ],
+    "answer": "animation-name: name1, name2;"
+  }
+]

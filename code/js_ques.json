@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "What is the correct way to declare a variable in JavaScript?",
+    "options": [
+      "variable x;",
+      "let x;",
+      "v x;",
+      "x = var;"
+    ],
+    "answer": "let x;"
+  },
+  {
+    "question": "Which operator is used for strict equality comparison in JavaScript?",
+    "options": [
+      "==",
+      "===",
+      "=",
+      "!=="
+    ],
+    "answer": "==="
+  },
+  {
+    "question": "What will typeof null return in JavaScript?",
+    "options": [
+      "\"null\"",
+      "\"object\"",
+      "\"undefined\"",
+      "\"number\""
+    ],
+    "answer": "\"object\""
+  },
+  {
+    "question": "Which method adds one or more elements to the end of an array?",
+    "options": [
+      "push()",
+      "pop()",
+      "shift()",
+      "unshift()"
+    ],
+    "answer": "push()"
+  },
+  {
+    "question": "What does the 'this' keyword refer to in a JavaScript object method?",
+    "options": [
+      "The function itself",
+      "The window object",
+      "The object that owns the method",
+      "The parent object"
+    ],
+    "answer": "The object that owns the method"
+  },
+  {
+    "question": "Which function is used to parse a string to an integer?",
+    "options": [
+      "parseInteger()",
+      "int()",
+      "parseInt()",
+      "number()"
+    ],
+    "answer": "parseInt()"
+  },
+  {
+    "question": "What is the output of: console.log(1 + '1')?",
+    "options": [
+      "2",
+      "11",
+      "\"2\"",
+      "NaN"
+    ],
+    "answer": "11"
+  },
+  {
+    "question": "Which keyword is used to declare a constant in JavaScript?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "constant"
+    ],
+    "answer": "const"
+  },
+  {
+    "question": "What does the Array.map() method do?",
+    "options": [
+      "Modifies the original array",
+      "Creates a new array with results of calling a function on every element",
+      "Filters the array based on a condition",
+      "Sorts the array"
+    ],
+    "answer": "Creates a new array with results of calling a function on every element"
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      "A function that has access to its own scope, outer function's scope, and global scope",
+      "A way to close a program",
+      "A method to hide variables",
+      "A type of loop"
+    ],
+    "answer": "A function that has access to its own scope, outer function's scope, and global scope"
+  },
+  {
+    "question": "Which method removes the last element from an array?",
+    "options": [
+      "remove()",
+      "pop()",
+      "delete()",
+      "shift()"
+    ],
+    "answer": "pop()"
+  },
+  {
+    "question": "What will Boolean('false') return?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is hoisting in JavaScript?",
+    "options": [
+      "Moving variables to the top of their scope before code execution",
+      "A type of function",
+      "A way to lift heavy objects",
+      "A DOM manipulation technique"
+    ],
+    "answer": "Moving variables to the top of their scope before code execution"
+  },
+  {
+    "question": "Which symbol is used for template literals?",
+    "options": [
+      "''",
+      "\"\"",
+      "``",
+      "()"
+    ],
+    "answer": "``"
+  },
+  {
+    "question": "What does JSON.stringify() do?",
+    "options": [
+      "Parses JSON to a JavaScript object",
+      "Converts a JavaScript object to a JSON string",
+      "Validates JSON",
+      "Compresses JSON data"
+    ],
+    "answer": "Converts a JavaScript object to a JSON string"
+  },
+  {
+    "question": "Which method joins array elements into a string?",
+    "options": [
+      "join()",
+      "concat()",
+      "merge()",
+      "combine()"
+    ],
+    "answer": "join()"
+  },
+  {
+    "question": "What is the purpose of the 'use strict' directive?",
+    "options": [
+      "To enforce stricter type checking",
+      "To make JavaScript run faster",
+      "To enforce stricter parsing and error handling",
+      "To enable experimental features"
+    ],
+    "answer": "To enforce stricter parsing and error handling"
+  },
+  {
+    "question": "What does the spread operator (...) do?",
+    "options": [
+      "Expands an iterable into individual elements",
+      "Combines multiple arrays into one",
+      "Creates a copy of an object",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which method creates a new array with all elements that pass a test?",
+    "options": [
+      "filter()",
+      "map()",
+      "reduce()",
+      "forEach()"
+    ],
+    "answer": "filter()"
+  },
+  {
+    "question": "What is the output of: console.log(typeof [])?",
+    "options": [
+      "\"array\"",
+      "\"object\"",
+      "\"list\"",
+      "\"undefined\""
+    ],
+    "answer": "\"object\""
+  },
+  {
+    "question": "Which function is used to execute code after a delay?",
+    "options": [
+      "setInterval()",
+      "setTimeout()",
+      "delay()",
+      "wait()"
+    ],
+    "answer": "setTimeout()"
+  },
+  {
+    "question": "What does the 'new' keyword do?",
+    "options": [
+      "Creates a new variable",
+      "Creates a new instance of an object",
+      "Declares a new function",
+      "Imports a new module"
+    ],
+    "answer": "Creates a new instance of an object"
+  },
+  {
+    "question": "Which method converts a string to lowercase?",
+    "options": [
+      "toLower()",
+      "lowerCase()",
+      "toLowerCase()",
+      "convertCase()"
+    ],
+    "answer": "toLowerCase()"
+  },
+  {
+    "question": "What is the purpose of the 'finally' block in try/catch?",
+    "options": [
+      "To handle errors",
+      "To run code regardless of the try/catch outcome",
+      "To define the main logic",
+      "To skip error handling"
+    ],
+    "answer": "To run code regardless of the try/catch outcome"
+  },
+  {
+    "question": "What does the Array.reduce() method do?",
+    "options": [
+      "Reduces the array size",
+      "Applies a function to reduce the array to a single value",
+      "Filters out elements",
+      "Sorts the array"
+    ],
+    "answer": "Applies a function to reduce the array to a single value"
+  },
+  {
+    "question": "Which operator returns the remainder of a division?",
+    "options": [
+      "%",
+      "/",
+      "//",
+      "mod"
+    ],
+    "answer": "%"
+  },
+  {
+    "question": "What is the output of: console.log(0.1 + 0.2 === 0.3)?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which method removes whitespace from both ends of a string?",
+    "options": [
+      "trim()",
+      "strip()",
+      "clean()",
+      "removeSpace()"
+    ],
+    "answer": "trim()"
+  },
+  {
+    "question": "What is an IIFE in JavaScript?",
+    "options": [
+      "Immediately Invoked Function Expression",
+      "Inline Iterable Function Element",
+      "Internal Instance Function Execution",
+      "Imported Interface For Execution"
+    ],
+    "answer": "Immediately Invoked Function Expression"
+  },
+  {
+    "question": "Which method checks if an array includes a certain value?",
+    "options": [
+      "contains()",
+      "has()",
+      "includes()",
+      "find()"
+    ],
+    "answer": "includes()"
+  },
+  {
+    "question": "What is the purpose of the 'bind()' method?",
+    "options": [
+      "To bind two objects together",
+      "To create a new function with a specific 'this' value",
+      "To bind event listeners",
+      "To bind data to the DOM"
+    ],
+    "answer": "To create a new function with a specific 'this' value"
+  },
+  {
+    "question": "What does the 'async' keyword do?",
+    "options": [
+      "Makes a function synchronous",
+      "Indicates a function returns a promise",
+      "Speeds up function execution",
+      "Creates a new thread"
+    ],
+    "answer": "Indicates a function returns a promise"
+  },
+  {
+    "question": "Which method returns the first element that matches a CSS selector?",
+    "options": [
+      "document.search()",
+      "document.querySelector()",
+      "document.find()",
+      "document.getElement()"
+    ],
+    "answer": "document.querySelector()"
+  },
+  {
+    "question": "What is the purpose of the 'await' keyword?",
+    "options": [
+      "To wait for a promise to resolve",
+      "To pause all JavaScript execution",
+      "To create a new promise",
+      "To handle errors"
+    ],
+    "answer": "To wait for a promise to resolve"
+  },
+  {
+    "question": "Which method creates a new array with sub-array elements concatenated?",
+    "options": [
+      "concat()",
+      "merge()",
+      "flat()",
+      "join()"
+    ],
+    "answer": "flat()"
+  },
+  {
+    "question": "What is the output of: console.log([] == ![])?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which method converts an object to an array of its values?",
+    "options": [
+      "Object.values()",
+      "Object.toArray()",
+      "Object.keys()",
+      "Object.entries()"
+    ],
+    "answer": "Object.values()"
+  },
+  {
+    "question": "What is event bubbling in JavaScript?",
+    "options": [
+      "When events are canceled",
+      "When events trigger multiple handlers",
+      "When events propagate from the target element up to the root",
+      "When events are created dynamically"
+    ],
+    "answer": "When events propagate from the target element up to the root"
+  },
+  {
+    "question": "Which method prevents new properties from being added to an object?",
+    "options": [
+      "Object.freeze()",
+      "Object.seal()",
+      "Object.preventExtensions()",
+      "Object.lock()"
+    ],
+    "answer": "Object.preventExtensions()"
+  },
+  {
+    "question": "What is the purpose of the 'yield' keyword?",
+    "options": [
+      "To pause generator function execution",
+      "To return from a function",
+      "To throw an error",
+      "To create a promise"
+    ],
+    "answer": "To pause generator function execution"
+  },
+  {
+    "question": "Which method creates a new array with the results of calling a function on every element?",
+    "options": [
+      "forEach()",
+      "map()",
+      "filter()",
+      "reduce()"
+    ],
+    "answer": "map()"
+  },
+  {
+    "question": "What is the output of: console.log(typeof NaN)?",
+    "options": [
+      "\"NaN\"",
+      "\"undefined\"",
+      "\"number\"",
+      "\"string\""
+    ],
+    "answer": "\"number\""
+  },
+  {
+    "question": "Which method returns the index of the first element that satisfies a condition?",
+    "options": [
+      "indexOf()",
+      "find()",
+      "findIndex()",
+      "search()"
+    ],
+    "answer": "findIndex()"
+  },
+  {
+    "question": "What is a pure function in JavaScript?",
+    "options": [
+      "A function with no parameters",
+      "A function that doesn't use 'this'",
+      "A function that always returns the same output for the same inputs and has no side effects",
+      "A function that only works with numbers"
+    ],
+    "answer": "A function that always returns the same output for the same inputs and has no side effects"
+  },
+  {
+    "question": "Which operator returns true if both operands are of the same type and value?",
+    "options": [
+      "==",
+      "===",
+      "=",
+      "!=="
+    ],
+    "answer": "==="
+  },
+  {
+    "question": "What is the purpose of the 'Symbol' data type?",
+    "options": [
+      "To create unique identifiers",
+      "To represent special characters",
+      "To create mathematical symbols",
+      "To represent currency values"
+    ],
+    "answer": "To create unique identifiers"
+  },
+  {
+    "question": "Which method creates a new array with elements from start to end (not including end)?",
+    "options": [
+      "slice()",
+      "splice()",
+      "cut()",
+      "split()"
+    ],
+    "answer": "slice()"
+  },
+  {
+    "question": "What is memoization in JavaScript?",
+    "options": [
+      "Creating memory leaks",
+      "Optimizing performance by caching function results",
+      "Measuring memory usage",
+      "A type of loop"
+    ],
+    "answer": "Optimizing performance by caching function results"
+  },
+  {
+    "question": "Which method converts a string to an array of substrings?",
+    "options": [
+      "split()",
+      "divide()",
+      "slice()",
+      "partition()"
+    ],
+    "answer": "split()"
+  },
+  {
+    "question": "What is the output of: console.log(1 < 2 < 3)?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which method returns the primitive value of an object?",
+    "options": [
+      "valueOf()",
+      "toString()",
+      "toPrimitive()",
+      "convert()"
+    ],
+    "answer": "valueOf()"
+  },
+  {
+    "question": "What is the purpose of the 'Proxy' object?",
+    "options": [
+      "To create HTTP proxies",
+      "To define custom behavior for fundamental operations",
+      "To manage network requests",
+      "To create server-side applications"
+    ],
+    "answer": "To define custom behavior for fundamental operations"
+  },
+  {
+    "question": "Which method creates a new array with all sub-array elements concatenated recursively?",
+    "options": [
+      "concat()",
+      "flat()",
+      "flatMap()",
+      "deepConcat()"
+    ],
+    "answer": "flat()"
+  },
+  {
+    "question": "What is the output of: console.log([] + [])?",
+    "options": [
+      "[]",
+      "\"\"",
+      "[object Object]",
+      "0"
+    ],
+    "answer": "\"\""
+  },
+  {
+    "question": "Which method returns the string representation of an object?",
+    "options": [
+      "toString()",
+      "stringify()",
+      "toText()",
+      "valueOf()"
+    ],
+    "answer": "toString()"
+  },
+  {
+    "question": "What is the purpose of the 'Reflect' object?",
+    "options": [
+      "To reflect light in games",
+      "To provide methods for interceptable JavaScript operations",
+      "To create mirrors of objects",
+      "To handle HTTP reflections"
+    ],
+    "answer": "To provide methods for interceptable JavaScript operations"
+  },
+  {
+    "question": "Which method creates a new array with the results of calling a function and then flattening the result?",
+    "options": [
+      "map()",
+      "flat()",
+      "flatMap()",
+      "mapFlat()"
+    ],
+    "answer": "flatMap()"
+  },
+  {
+    "question": "What is the output of: console.log(+'1' + +'1')?",
+    "options": [
+      "\"11\"",
+      "2",
+      "11",
+      "NaN"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Which method returns an array of a given object's own enumerable property names?",
+    "options": [
+      "Object.getOwnProperties()",
+      "Object.keys()",
+      "Object.names()",
+      "Object.properties()"
+    ],
+    "answer": "Object.keys()"
+  },
+  {
+    "question": "What is the purpose of the 'WeakMap' object?",
+    "options": [
+      "To create maps with weak encryption",
+      "To create a collection of key/value pairs where keys are weakly referenced",
+      "To create maps that can't be modified",
+      "To create maps with slow performance"
+    ],
+    "answer": "To create a collection of key/value pairs where keys are weakly referenced"
+  },
+  {
+    "question": "Which method returns an array of a given object's own enumerable string-keyed property [key, value] pairs?",
+    "options": [
+      "Object.entries()",
+      "Object.pairs()",
+      "Object.values()",
+      "Object.keys()"
+    ],
+    "answer": "Object.entries()"
+  },
+  {
+    "question": "What is the output of: console.log(typeof function(){})?",
+    "options": [
+      "\"function\"",
+      "\"object\"",
+      "\"undefined\"",
+      "\"lambda\""
+    ],
+    "answer": "\"function\""
+  },
+  {
+    "question": "Which method creates a new function with a specified 'this' value and initial arguments?",
+    "options": [
+      "bind()",
+      "call()",
+      "apply()",
+      "attach()"
+    ],
+    "answer": "bind()"
+  },
+  {
+    "question": "What is the purpose of the 'WeakSet' object?",
+    "options": [
+      "To create sets with weak encryption",
+      "To create a collection of weakly held objects",
+      "To create sets that can't be modified",
+      "To create sets with slow performance"
+    ],
+    "answer": "To create a collection of weakly held objects"
+  },
+  {
+    "question": "Which method executes a reducer function on each element resulting in a single output value?",
+    "options": [
+      "reduce()",
+      "map()",
+      "filter()",
+      "forEach()"
+    ],
+    "answer": "reduce()"
+  },
+  {
+    "question": "What is the output of: console.log(3 > 2 > 1)?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which method returns the length of a string?",
+    "options": [
+      "length()",
+      "size()",
+      "count()",
+      ".length property"
+    ],
+    "answer": ".length property"
+  },
+  {
+    "question": "What is the purpose of the 'Generator' function?",
+    "options": [
+      "To generate random numbers",
+      "To generate HTML elements",
+      "To generate functions that can be exited and later re-entered",
+      "To generate CSS styles"
+    ],
+    "answer": "To generate functions that can be exited and later re-entered"
+  },
+  {
+    "question": "Which method returns the first element in an array that satisfies a condition?",
+    "options": [
+      "search()",
+      "find()",
+      "filter()",
+      "get()"
+    ],
+    "answer": "find()"
+  },
+  {
+    "question": "What is the output of: console.log('5' - 3)?",
+    "options": [
+      "2",
+      "\"2\"",
+      "NaN",
+      "Error"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Which method returns a new array with all elements that pass a test?",
+    "options": [
+      "map()",
+      "filter()",
+      "reduce()",
+      "forEach()"
+    ],
+    "answer": "filter()"
+  },
+  {
+    "question": "What is the purpose of the 'ArrayBuffer' object?",
+    "options": [
+      "To buffer array operations",
+      "To represent a fixed-length raw binary data buffer",
+      "To create arrays with buffers",
+      "To handle array overflows"
+    ],
+    "answer": "To represent a fixed-length raw binary data buffer"
+  },
+  {
+    "question": "Which method creates a new array with all sub-array elements concatenated and applies a map function?",
+    "options": [
+      "flatMap()",
+      "mapFlat()",
+      "concatMap()",
+      "mapConcat()"
+    ],
+    "answer": "flatMap()"
+  },
+  {
+    "question": "What is the output of: console.log('5' + 3)?",
+    "options": [
+      "8",
+      "\"8\"",
+      "\"53\"",
+      "Error"
+    ],
+    "answer": "\"53\""
+  },
+  {
+    "question": "Which method returns a string representing the specified array?",
+    "options": [
+      "toString()",
+      "join()",
+      "stringify()",
+      "toText()"
+    ],
+    "answer": "toString()"
+  },
+  {
+    "question": "What is the purpose of the 'Atomics' object?",
+    "options": [
+      "To handle atomic physics calculations",
+      "To provide atomic operations as static methods",
+      "To create atomic bombs in games",
+      "To handle atomic CSS properties"
+    ],
+    "answer": "To provide atomic operations as static methods"
+  },
+  {
+    "question": "Which method returns the last index at which a given element can be found?",
+    "options": [
+      "lastIndexOf()",
+      "findLast()",
+      "searchLast()",
+      "indexLast()"
+    ],
+    "answer": "lastIndexOf()"
+  },
+  {
+    "question": "What is the output of: console.log([] == 0)?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which method creates a new array with the results of calling a function on every element?",
+    "options": [
+      "forEach()",
+      "map()",
+      "filter()",
+      "reduce()"
+    ],
+    "answer": "map()"
+  },
+  {
+    "question": "What is the purpose of the 'SharedArrayBuffer' object?",
+    "options": [
+      "To share array buffers between threads",
+      "To create shared arrays",
+      "To handle shared memory operations",
+      "To buffer shared resources"
+    ],
+    "answer": "To share array buffers between threads"
+  },
+  {
+    "question": "Which method returns a new array with the elements in reverse order?",
+    "options": [
+      "reverse()",
+      "flip()",
+      "backwards()",
+      "invert()"
+    ],
+    "answer": "reverse()"
+  },
+  {
+    "question": "What is the output of: console.log({} == {})?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which method returns a new array with the elements sorted?",
+    "options": [
+      "order()",
+      "sort()",
+      "arrange()",
+      "sequence()"
+    ],
+    "answer": "sort()"
+  },
+  {
+    "question": "What is the purpose of the 'DataView' object?",
+    "options": [
+      "To view database records",
+      "To provide a low-level interface for reading/writing multiple number types",
+      "To create data visualizations",
+      "To view data structures"
+    ],
+    "answer": "To provide a low-level interface for reading/writing multiple number types"
+  },
+  {
+    "question": "Which method returns a portion of a string between start and end indexes?",
+    "options": [
+      "slice()",
+      "substring()",
+      "substr()",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the output of: console.log(null == undefined)?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which method returns the primitive value of a string object?",
+    "options": [
+      "valueOf()",
+      "toString()",
+      "toPrimitive()",
+      "convert()"
+    ],
+    "answer": "valueOf()"
+  },
+  {
+    "question": "What is the purpose of the 'FinalizationRegistry' object?",
+    "options": [
+      "To register final exams",
+      "To manage memory cleanup of registered objects",
+      "To create final versions of objects",
+      "To register final states"
+    ],
+    "answer": "To manage memory cleanup of registered objects"
+  },
+  {
+    "question": "Which method returns a new array with elements from start to end (not including end)?",
+    "options": [
+      "slice()",
+      "splice()",
+      "cut()",
+      "split()"
+    ],
+    "answer": "slice()"
+  },
+  {
+    "question": "What is the output of: console.log(typeof undefined)?",
+    "options": [
+      "\"null\"",
+      "\"undefined\"",
+      "\"object\"",
+      "\"unknown\""
+    ],
+    "answer": "\"undefined\""
+  },
+  {
+    "question": "Which method returns a string with whitespace removed from the end?",
+    "options": [
+      "trimEnd()",
+      "trimRight()",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "What is the purpose of the 'WebAssembly' object?",
+    "options": [
+      "To assemble web pages",
+      "To provide a way to run code written in other languages in the browser",
+      "To create web workers",
+      "To assemble CSS styles"
+    ],
+    "answer": "To provide a way to run code written in other languages in the browser"
+  },
+  {
+    "question": "Which method returns a string with whitespace removed from the start?",
+    "options": [
+      "trimStart()",
+      "trimLeft()",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "What is the output of: console.log(!!'false')?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which method returns a string with whitespace removed from both ends?",
+    "options": [
+      "trim()",
+      "clean()",
+      "strip()",
+      "All of the above"
+    ],
+    "answer": "trim()"
+  },
+  {
+    "question": "What is the purpose of the 'Intl' object?",
+    "options": [
+      "To handle international telephone numbers",
+      "To provide language sensitive string comparison, number formatting, and date/time formatting",
+      "To create internal links",
+      "To handle internet protocols"
+    ],
+    "answer": "To provide language sensitive string comparison, number formatting, and date/time formatting"
+  },
+  {
+    "question": "Which method returns a new array with all falsy values removed?",
+    "options": [
+      "filter(Boolean)",
+      "compact()",
+      "removeFalsy()",
+      "clean()"
+    ],
+    "answer": "filter(Boolean)"
+  },
+  {
+    "question": "What is the output of: console.log(+'')?",
+    "options": [
+      "0",
+      "NaN",
+      "undefined",
+      "\"\""
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Which method returns a new array with duplicate elements removed?",
+    "options": [
+      "unique()",
+      "distinct()",
+      "new Set(array)",
+      "removeDuplicates()"
+    ],
+    "answer": "new Set(array)"
+  },
+  {
+    "question": "What is the purpose of the 'console' object?",
+    "options": [
+      "To create console applications",
+      "To provide debugging tools and output to the console",
+      "To handle server-side console commands",
+      "To create gaming consoles"
+    ],
+    "answer": "To provide debugging tools and output to the console"
+  }
+]

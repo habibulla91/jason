@@ -1,0 +1,982 @@
+[
+  {
+    "question": "What does Sass stand for?",
+    "options": [
+      "Styled and Structured Sheets",
+      "Syntactically Awesome Style Sheets",
+      "Systematic Advanced Style System",
+      "Style and Syntax Sheets"
+    ],
+    "answer": "Syntactically Awesome Style Sheets"
+  },
+  {
+    "question": "Which file extension is used for Sass files with the newer SCSS syntax?",
+    "options": [
+      ".sass",
+      ".scss",
+      ".css",
+      ".sassc"
+    ],
+    "answer": ".scss"
+  },
+  {
+    "question": "What is the main difference between .sass and .scss syntax?",
+    "options": [
+      ".sass uses semicolons, .scss doesn't",
+      ".sass uses curly braces, .scss doesn't",
+      ".scss uses curly braces and semicolons, .sass uses indentation",
+      "There is no difference"
+    ],
+    "answer": ".scss uses curly braces and semicolons, .sass uses indentation"
+  },
+  {
+    "question": "Which symbol is used to define a variable in Sass?",
+    "options": [
+      "@",
+      "$",
+      "%",
+      "var"
+    ],
+    "answer": "$"
+  },
+  {
+    "question": "How do you create a mixin in Sass?",
+    "options": [
+      "@mixin name {}",
+      "mixin name {}",
+      "$mixin name {}",
+      "function name {}"
+    ],
+    "answer": "@mixin name {}"
+  },
+  {
+    "question": "How do you include a mixin in your Sass code?",
+    "options": [
+      "@include mixin-name;",
+      "@mixin mixin-name;",
+      "$mixin mixin-name;",
+      "include mixin-name;"
+    ],
+    "answer": "@include mixin-name;"
+  },
+  {
+    "question": "Which directive is used to create functions in Sass?",
+    "options": [
+      "@function",
+      "@func",
+      "$function",
+      "function"
+    ],
+    "answer": "@function"
+  },
+  {
+    "question": "What is the correct way to write a nested rule in Sass?",
+    "options": [
+      "parent { child {} }",
+      "parent > child {}",
+      "parent { & child {} }",
+      "parent { .child {} }"
+    ],
+    "answer": "parent { .child {} }"
+  },
+  {
+    "question": "Which symbol is used for placeholder selectors in Sass?",
+    "options": [
+      "@",
+      "$",
+      "%",
+      "&"
+    ],
+    "answer": "%"
+  },
+  {
+    "question": "How do you extend a placeholder selector in Sass?",
+    "options": [
+      "@extend %placeholder;",
+      "@include %placeholder;",
+      "$extend %placeholder;",
+      "extend %placeholder;"
+    ],
+    "answer": "@extend %placeholder;"
+  },
+  {
+    "question": "Which operator is used for division in Sass?",
+    "options": [
+      "/",
+      "÷",
+      "//",
+      "div"
+    ],
+    "answer": "/"
+  },
+  {
+    "question": "What is the purpose of the @use rule in Sass?",
+    "options": [
+      "To import other Sass files",
+      "To define a mixin",
+      "To create a function",
+      "To include CSS from a URL"
+    ],
+    "answer": "To import other Sass files"
+  },
+  {
+    "question": "Which directive is used for conditional statements in Sass?",
+    "options": [
+      "@if",
+      "@conditional",
+      "@when",
+      "$if"
+    ],
+    "answer": "@if"
+  },
+  {
+    "question": "How do you create a for loop in Sass?",
+    "options": [
+      "@for $i from 1 through 10 {}",
+      "for (i=1; i<=10; i++) {}",
+      "loop $i from 1 to 10 {}",
+      "$for $i in 1..10 {}"
+    ],
+    "answer": "@for $i from 1 through 10 {}"
+  },
+  {
+    "question": "Which function is used to darken a color in Sass?",
+    "options": [
+      "darken()",
+      "color-darken()",
+      "make-dark()",
+      "shade()"
+    ],
+    "answer": "darken()"
+  },
+  {
+    "question": "What does the & symbol represent in Sass?",
+    "options": [
+      "The parent selector",
+      "A reference to a variable",
+      "A pointer to a mixin",
+      "A concatenation operator"
+    ],
+    "answer": "The parent selector"
+  },
+  {
+    "question": "Which directive is used to import files in Sass?",
+    "options": [
+      "@import",
+      "@include",
+      "@use",
+      "@require"
+    ],
+    "answer": "@import"
+  },
+  {
+    "question": "How do you comment out code in Sass that won't appear in the compiled CSS?",
+    "options": [
+      "// Comment",
+      "/* Comment */",
+      "<!-- Comment -->",
+      "** Comment **"
+    ],
+    "answer": "// Comment"
+  },
+  {
+    "question": "Which Sass feature allows you to break your code into smaller, reusable pieces?",
+    "options": [
+      "Variables",
+      "Partials",
+      "Mixins",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the naming convention for Sass partial files?",
+    "options": [
+      "They start with an underscore",
+      "They end with .partial",
+      "They start with a dollar sign",
+      "They end with _sass"
+    ],
+    "answer": "They start with an underscore"
+  },
+  {
+    "question": "Which function is used to lighten a color in Sass?",
+    "options": [
+      "lighten()",
+      "color-lighten()",
+      "make-light()",
+      "tint()"
+    ],
+    "answer": "lighten()"
+  },
+  {
+    "question": "How do you create a while loop in Sass?",
+    "options": [
+      "@while condition {}",
+      "while (condition) {}",
+      "loop while condition {}",
+      "$while condition {}"
+    ],
+    "answer": "@while condition {}"
+  },
+  {
+    "question": "Which Sass feature allows you to define default values for mixin parameters?",
+    "options": [
+      "Default variables",
+      "Optional parameters",
+      "Argument defaults",
+      "All of the above"
+    ],
+    "answer": "Argument defaults"
+  },
+  {
+    "question": "What is the purpose of the @content directive in Sass?",
+    "options": [
+      "To include content from another file",
+      "To pass content blocks to mixins",
+      "To define the main content area",
+      "To specify CSS content property"
+    ],
+    "answer": "To pass content blocks to mixins"
+  },
+  {
+    "question": "Which Sass function returns the length of a list?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "list-length()"
+    ],
+    "answer": "length()"
+  },
+  {
+    "question": "How do you interpolate a variable in a selector name?",
+    "options": [
+      "#{$variable}",
+      "${variable}",
+      "&variable",
+      "@{variable}"
+    ],
+    "answer": "#{$variable}"
+  },
+  {
+    "question": "Which Sass function converts a number to a string?",
+    "options": [
+      "string()",
+      "to-string()",
+      "str()",
+      "quote()"
+    ],
+    "answer": "quote()"
+  },
+  {
+    "question": "What is the purpose of the @each directive in Sass?",
+    "options": [
+      "To loop through each element in a list",
+      "To apply styles to each child element",
+      "To import each file in a directory",
+      "To create a selector for each item"
+    ],
+    "answer": "To loop through each element in a list"
+  },
+  {
+    "question": "Which Sass function checks if a variable exists?",
+    "options": [
+      "exists()",
+      "variable-exists()",
+      "defined()",
+      "isset()"
+    ],
+    "answer": "variable-exists()"
+  },
+  {
+    "question": "How do you create a map in Sass?",
+    "options": [
+      "$map: (key: value);",
+      "@map (key: value);",
+      "map(key: value);",
+      "$map = [key: value];"
+    ],
+    "answer": "$map: (key: value);"
+  },
+  {
+    "question": "Which Sass function returns the value associated with a key in a map?",
+    "options": [
+      "get()",
+      "map-get()",
+      "value()",
+      "map-value()"
+    ],
+    "answer": "map-get()"
+  },
+  {
+    "question": "What is the purpose of the @warn directive in Sass?",
+    "options": [
+      "To display warning messages",
+      "To throw errors",
+      "To log debug information",
+      "To conditionally compile code"
+    ],
+    "answer": "To display warning messages"
+  },
+  {
+    "question": "Which Sass function converts a string to a number?",
+    "options": [
+      "number()",
+      "to-number()",
+      "int()",
+      "parseInt()"
+    ],
+    "answer": "number()"
+  },
+  {
+    "question": "How do you create a list in Sass?",
+    "options": [
+      "$list: [item1, item2];",
+      "$list: (item1, item2);",
+      "@list item1, item2;",
+      "list(item1, item2);"
+    ],
+    "answer": "$list: (item1, item2);"
+  },
+  {
+    "question": "Which Sass function checks if a map has a specific key?",
+    "options": [
+      "map-has-key()",
+      "has-key()",
+      "key-exists()",
+      "map-contains()"
+    ],
+    "answer": "map-has-key()"
+  },
+  {
+    "question": "What is the purpose of the @debug directive in Sass?",
+    "options": [
+      "To output debug information",
+      "To fix errors automatically",
+      "To enable debugging mode",
+      "To remove debug code"
+    ],
+    "answer": "To output debug information"
+  },
+  {
+    "question": "Which Sass function returns the type of a value?",
+    "options": [
+      "type-of()",
+      "get-type()",
+      "typeof()",
+      "value-type()"
+    ],
+    "answer": "type-of()"
+  },
+  {
+    "question": "How do you merge two maps in Sass?",
+    "options": [
+      "map-merge()",
+      "merge()",
+      "map-combine()",
+      "combine-maps()"
+    ],
+    "answer": "map-merge()"
+  },
+  {
+    "question": "Which Sass function returns the unit of a number?",
+    "options": [
+      "get-unit()",
+      "unit()",
+      "number-unit()",
+      "unit-of()"
+    ],
+    "answer": "unit()"
+  },
+  {
+    "question": "What is the purpose of the @forward rule in Sass?",
+    "options": [
+      "To forward HTTP requests",
+      "To forward mixins and variables to other files",
+      "To create animation keyframes",
+      "To redirect CSS imports"
+    ],
+    "answer": "To forward mixins and variables to other files"
+  },
+  {
+    "question": "Which Sass function removes units from a number?",
+    "options": [
+      "strip-units()",
+      "unitless()",
+      "remove-unit()",
+      "no-unit()"
+    ],
+    "answer": "unitless()"
+  },
+  {
+    "question": "How do you create a custom function in Sass?",
+    "options": [
+      "@function name() {}",
+      "function name() {}",
+      "$function name() {}",
+      "func name() {}"
+    ],
+    "answer": "@function name() {}"
+  },
+  {
+    "question": "Which Sass function returns the percentage representation of a number?",
+    "options": [
+      "percent()",
+      "percentage()",
+      "to-percent()",
+      "as-percent()"
+    ],
+    "answer": "percentage()"
+  },
+  {
+    "question": "What is the purpose of the @at-root directive in Sass?",
+    "options": [
+      "To reference the root element",
+      "To break out of nesting",
+      "To target the :root selector",
+      "To reset the selector context"
+    ],
+    "answer": "To break out of nesting"
+  },
+  {
+    "question": "Which Sass function returns the absolute value of a number?",
+    "options": [
+      "absolute()",
+      "abs()",
+      "positive()",
+      "absolute-value()"
+    ],
+    "answer": "abs()"
+  },
+  {
+    "question": "How do you create a namespace when using @use?",
+    "options": [
+      "@use 'file' as namespace;",
+      "@use 'file' with namespace;",
+      "@use 'file' namespace;",
+      "@use namespace from 'file';"
+    ],
+    "answer": "@use 'file' as namespace;"
+  },
+  {
+    "question": "Which Sass function rounds a number to the nearest integer?",
+    "options": [
+      "round()",
+      "ceil()",
+      "floor()",
+      "integer()"
+    ],
+    "answer": "round()"
+  },
+  {
+    "question": "What is the purpose of the @error directive in Sass?",
+    "options": [
+      "To log errors",
+      "To throw a fatal error",
+      "To handle CSS errors",
+      "To debug compilation issues"
+    ],
+    "answer": "To throw a fatal error"
+  },
+  {
+    "question": "Which Sass function returns the smallest of several numbers?",
+    "options": [
+      "smallest()",
+      "min()",
+      "minimum()",
+      "least()"
+    ],
+    "answer": "min()"
+  },
+  {
+    "question": "How do you create a color from RGB values in Sass?",
+    "options": [
+      "rgb()",
+      "color()",
+      "create-color()",
+      "make-rgb()"
+    ],
+    "answer": "rgb()"
+  },
+  {
+    "question": "Which Sass function returns the largest of several numbers?",
+    "options": [
+      "largest()",
+      "max()",
+      "maximum()",
+      "greatest()"
+    ],
+    "answer": "max()"
+  },
+  {
+    "question": "What is the purpose of the !default flag in Sass?",
+    "options": [
+      "To make a variable required",
+      "To set a default value that can be overridden",
+      "To mark a variable as important",
+      "To prevent a variable from being changed"
+    ],
+    "answer": "To set a default value that can be overridden"
+  },
+  {
+    "question": "Which Sass function returns the sine of an angle?",
+    "options": [
+      "sin()",
+      "sine()",
+      "math-sin()",
+      "calc-sin()"
+    ],
+    "answer": "sin()"
+  },
+  {
+    "question": "How do you create a color from HSL values in Sass?",
+    "options": [
+      "hsl()",
+      "color-hsl()",
+      "create-hsl()",
+      "make-hsl()"
+    ],
+    "answer": "hsl()"
+  },
+  {
+    "question": "Which Sass function returns the cosine of an angle?",
+    "options": [
+      "cos()",
+      "cosine()",
+      "math-cos()",
+      "calc-cos()"
+    ],
+    "answer": "cos()"
+  },
+  {
+    "question": "What is the purpose of the !global flag in Sass?",
+    "options": [
+      "To make a variable available globally",
+      "To mark a variable as important",
+      "To prevent a variable from being changed",
+      "To make a variable responsive"
+    ],
+    "answer": "To make a variable available globally"
+  },
+  {
+    "question": "Which Sass function returns the tangent of an angle?",
+    "options": [
+      "tan()",
+      "tangent()",
+      "math-tan()",
+      "calc-tan()"
+    ],
+    "answer": "tan()"
+  },
+  {
+    "question": "How do you create a color from HEX values in Sass?",
+    "options": [
+      "hex()",
+      "# followed by the value",
+      "color()",
+      "make-hex()"
+    ],
+    "answer": "# followed by the value"
+  },
+  {
+    "question": "Which Sass function returns a random number?",
+    "options": [
+      "rand()",
+      "random()",
+      "math-random()",
+      "number-random()"
+    ],
+    "answer": "random()"
+  },
+  {
+    "question": "What is the purpose of the !optional flag in Sass?",
+    "options": [
+      "To make a mixin parameter optional",
+      "To mark an @extend as optional",
+      "To make a variable optional",
+      "To skip compilation of a rule"
+    ],
+    "answer": "To mark an @extend as optional"
+  },
+  {
+    "question": "Which Sass function returns the square root of a number?",
+    "options": [
+      "sqrt()",
+      "square-root()",
+      "root()",
+      "math-sqrt()"
+    ],
+    "answer": "sqrt()"
+  },
+  {
+    "question": "How do you create a color with opacity in Sass?",
+    "options": [
+      "rgba()",
+      "opacity()",
+      "transparent()",
+      "alpha()"
+    ],
+    "answer": "rgba()"
+  },
+  {
+    "question": "Which Sass function returns the arctangent of a number?",
+    "options": [
+      "atan()",
+      "arctan()",
+      "math-atan()",
+      "calc-atan()"
+    ],
+    "answer": "atan()"
+  },
+  {
+    "question": "What is the purpose of the @supports directive in Sass?",
+    "options": [
+      "To check for browser support",
+      "To provide fallback styles",
+      "To conditionally include styles",
+      "This is a CSS feature, not Sass"
+    ],
+    "answer": "This is a CSS feature, not Sass"
+  },
+  {
+    "question": "Which Sass function returns the arccosine of a number?",
+    "options": [
+      "acos()",
+      "arccos()",
+      "math-acos()",
+      "calc-acos()"
+    ],
+    "answer": "acos()"
+  },
+  {
+    "question": "How do you create a grayscale color in Sass?",
+    "options": [
+      "grayscale()",
+      "gray()",
+      "monochrome()",
+      "desaturate(100%)"
+    ],
+    "answer": "grayscale()"
+  },
+  {
+    "question": "Which Sass function returns the arcsine of a number?",
+    "options": [
+      "asin()",
+      "arcsin()",
+      "math-asin()",
+      "calc-asin()"
+    ],
+    "answer": "asin()"
+  },
+  {
+    "question": "What is the purpose of the @extend directive in Sass?",
+    "options": [
+      "To extend a class with additional properties",
+      "To share properties between selectors",
+      "To import extended features",
+      "To create longer animations"
+    ],
+    "answer": "To share properties between selectors"
+  },
+  {
+    "question": "Which Sass function returns the complement of a color?",
+    "options": [
+      "complement()",
+      "opposite()",
+      "invert()",
+      "color-complement()"
+    ],
+    "answer": "complement()"
+  },
+  {
+    "question": "How do you create an inverted color in Sass?",
+    "options": [
+      "invert()",
+      "color-invert()",
+      "reverse()",
+      "opposite()"
+    ],
+    "answer": "invert()"
+  },
+  {
+    "question": "Which Sass function mixes two colors?",
+    "options": [
+      "color-mix()",
+      "blend()",
+      "mix()",
+      "combine-colors()"
+    ],
+    "answer": "mix()"
+  },
+  {
+    "question": "What is the purpose of the @media directive in Sass?",
+    "options": [
+      "To import media files",
+      "To create media queries",
+      "To handle responsive images",
+      "To define animation keyframes"
+    ],
+    "answer": "To create media queries"
+  },
+  {
+    "question": "Which Sass function adjusts the hue of a color?",
+    "options": [
+      "adjust-hue()",
+      "change-hue()",
+      "hue()",
+      "rotate-hue()"
+    ],
+    "answer": "adjust-hue()"
+  },
+  {
+    "question": "How do you create a transparent color in Sass?",
+    "options": [
+      "transparent()",
+      "rgba() with alpha 0",
+      "opacity(0)",
+      "clear()"
+    ],
+    "answer": "rgba() with alpha 0"
+  },
+  {
+    "question": "Which Sass function saturates a color?",
+    "options": [
+      "saturate()",
+      "color-saturate()",
+      "make-saturated()",
+      "add-saturation()"
+    ],
+    "answer": "saturate()"
+  },
+  {
+    "question": "What is the purpose of the @keyframes directive in Sass?",
+    "options": [
+      "To define animation sequences",
+      "To create keyframe-based layouts",
+      "To handle keyboard events",
+      "This is a CSS feature, not Sass"
+    ],
+    "answer": "This is a CSS feature, not Sass"
+  },
+  {
+    "question": "Which Sass function desaturates a color?",
+    "options": [
+      "desaturate()",
+      "color-desaturate()",
+      "remove-saturation()",
+      "make-desaturated()"
+    ],
+    "answer": "desaturate()"
+  },
+  {
+    "question": "How do you create a color from a string in Sass?",
+    "options": [
+      "color()",
+      "str-to-color()",
+      "unquote()",
+      "This isn't possible directly"
+    ],
+    "answer": "This isn't possible directly"
+  },
+  {
+    "question": "Which Sass function makes a color more transparent?",
+    "options": [
+      "transparentize()",
+      "fade-out()",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "What is the purpose of the @font-face directive in Sass?",
+    "options": [
+      "To define custom fonts",
+      "To handle font loading",
+      "To create font variations",
+      "This is a CSS feature, not Sass"
+    ],
+    "answer": "This is a CSS feature, not Sass"
+  },
+  {
+    "question": "Which Sass function makes a color more opaque?",
+    "options": [
+      "opacify()",
+      "fade-in()",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "How do you create a list of all available colors in Sass?",
+    "options": [
+      "colors()",
+      "get-colors()",
+      "There's no built-in function for this",
+      "color-list()"
+    ],
+    "answer": "There's no built-in function for this"
+  },
+  {
+    "question": "Which Sass function returns the red component of a color?",
+    "options": [
+      "red()",
+      "get-red()",
+      "color-red()",
+      "red-component()"
+    ],
+    "answer": "red()"
+  },
+  {
+    "question": "What is the purpose of the @import directive in modern Sass?",
+    "options": [
+      "It's deprecated in favor of @use",
+      "It's the primary way to import files",
+      "It only works for CSS files",
+      "It's used for importing JavaScript"
+    ],
+    "answer": "It's deprecated in favor of @use"
+  },
+  {
+    "question": "Which Sass function returns the green component of a color?",
+    "options": [
+      "green()",
+      "get-green()",
+      "color-green()",
+      "green-component()"
+    ],
+    "answer": "green()"
+  },
+  {
+    "question": "How do you create a color from its individual RGB components in Sass?",
+    "options": [
+      "rgb()",
+      "color()",
+      "create-color()",
+      "make-rgb()"
+    ],
+    "answer": "rgb()"
+  },
+  {
+    "question": "Which Sass function returns the blue component of a color?",
+    "options": [
+      "blue()",
+      "get-blue()",
+      "color-blue()",
+      "blue-component()"
+    ],
+    "answer": "blue()"
+  },
+  {
+    "question": "What is the purpose of the @return directive in Sass?",
+    "options": [
+      "To return a value from a function",
+      "To restart a loop",
+      "To exit a mixin",
+      "To return to the parent selector"
+    ],
+    "answer": "To return a value from a function"
+  },
+  {
+    "question": "Which Sass function returns the alpha (transparency) component of a color?",
+    "options": [
+      "alpha()",
+      "opacity()",
+      "transparency()",
+      "get-alpha()"
+    ],
+    "answer": "alpha()"
+  },
+  {
+    "question": "How do you create a color from its individual HSL components in Sass?",
+    "options": [
+      "hsl()",
+      "color()",
+      "create-color()",
+      "make-hsl()"
+    ],
+    "answer": "hsl()"
+  },
+  {
+    "question": "Which Sass function returns the hue component of a color?",
+    "options": [
+      "hue()",
+      "get-hue()",
+      "color-hue()",
+      "hue-component()"
+    ],
+    "answer": "hue()"
+  },
+  {
+    "question": "What is the purpose of the @while directive in Sass?",
+    "options": [
+      "To create a conditional loop",
+      "To check conditions during compilation",
+      "To handle responsive breakpoints",
+      "To wait for a condition to be true"
+    ],
+    "answer": "To create a conditional loop"
+  },
+  {
+    "question": "Which Sass function returns the saturation component of a color?",
+    "options": [
+      "saturation()",
+      "get-saturation()",
+      "color-saturation()",
+      "saturation-component()"
+    ],
+    "answer": "saturation()"
+  },
+  {
+    "question": "How do you create a color from its individual HSLA components in Sass?",
+    "options": [
+      "hsla()",
+      "color()",
+      "create-color()",
+      "make-hsla()"
+    ],
+    "answer": "hsla()"
+  },
+  {
+    "question": "Which Sass function returns the lightness component of a color?",
+    "options": [
+      "lightness()",
+      "get-lightness()",
+      "color-lightness()",
+      "lightness-component()"
+    ],
+    "answer": "lightness()"
+  },
+  {
+    "question": "What is the purpose of the @for directive in Sass?",
+    "options": [
+      "To import files in a loop",
+      "To create iterative loops",
+      "To handle form submissions",
+      "To create foreach loops"
+    ],
+    "answer": "To create iterative loops"
+  },
+  {
+    "question": "Which Sass function increases the lightness of a color?",
+    "options": [
+      "lighten()",
+      "increase-lightness()",
+      "brighten()",
+      "All of the above"
+    ],
+    "answer": "lighten()"
+  },
+  {
+    "question": "How do you create a color from its individual RGBA components in Sass?",
+    "options": [
+      "rgba()",
+      "color()",
+      "create-color()",
+      "make-rgba()"
+    ],
+    "answer": "rgba()"
+  }
+]

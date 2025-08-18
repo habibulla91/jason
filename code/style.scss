@@ -1,0 +1,181 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    .su {
+        margin: 0 auto;
+        height: 600px;
+        width: 100%;
+    }
+    .showScore {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .showScoreu {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #next_btn {
+        height: 50px;
+        width: 100%;
+        background-color: violet;
+        color: #fff;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: 600;
+}
+    .reset{
+        height: 50px;
+        width: 100%;
+        display:grid;
+        place-items: center;
+        background: green;
+        color: #fff;
+        font-weight: 600;
+        padding: 10px;
+        border: 1px solid #E3FCEF;
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+}
+body {
+    background: url(/images/pattern-background-desktop-light.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: #313E51;
+    background-color: #F5F6FA;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    .toggle{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        #t_1, #t_2{
+            cursor: pointer;
+           border-radius: 5px;
+           border: none; 
+           background: #000;
+           
+        }
+    }
+    }
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    .hero_text {
+        #text1 {
+            font-size: 70px;
+             width: 70%;
+        }
+        .text2 {
+            font-style: italic;
+            color: #707480;
+            margin: 50px 0;
+        }
+    }
+    #quiz_con {
+        #quiz {
+            height: 100px;
+            width: 600px;
+            background-color: #fff;
+            margin: 0 0 30px 0;
+            display: flex;
+            align-items: center;
+            font-size: 35px;
+            cursor: pointer;
+            border-radius: 25px;
+            font-weight: 600;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            img {
+                margin: 0 30px 0 30px;
+            }
+        }
+        .quiz1 {
+            img {
+                background: #FEF0EA;
+                height: 50px;
+                width: 50px;
+                border-radius: 8px;
+                padding: 5px;
+            }
+        }
+        .quiz2 {
+            img {
+                background: #E3FCEF;
+                height: 50px;
+                width: 50px;
+                border-radius: 8px;
+                padding: 5px;
+            }
+        }
+        .quiz3 {
+            img {
+                background: #EAF0FF;
+                height: 50px;
+                width: 50px;
+                border-radius: 8px;
+                padding: 5px;
+            }
+        }
+        .quiz4 {
+            img {
+                background:#F7E6FE;
+                height: 50px;
+                width: 50px;
+                border-radius: 8px;
+                padding: 5px;
+            }
+        }
+        #get {
+            height: 50px;
+        width: 100%;
+        background-color: violet;
+        color: #fff;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        }
+        
+    }
+}
+.quiz {
+            height: 80px;
+            width: 600px;
+            list-style: none;
+            background-color: black;
+            margin: 0 0 30px 0;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            padding: 30px;
+            box-sizing: border-box;
+            cursor: pointer;
+            border-radius: 20px;
+            font-weight: 600;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            transition: 0.8s;
+            &:hover{
+                background: #fff;
+                color: black;
+            }
+        }
+.click {
+    background: blue;
+    color: #fff;
+}
+.selected {
+    background: #fff;
+    color: #000;
+}
